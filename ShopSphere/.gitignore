@@ -1,0 +1,26 @@
+target/
+*.class
+*.war
+*.log
+
+# Local, secret-bearing configuration (never commit)
+config/db.properties
+config/admin-credentials.txt
+.env
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+nbproject/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Reference application binaries (not needed in source repository)
+reference-only/
+
